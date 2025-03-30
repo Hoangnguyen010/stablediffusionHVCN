@@ -1,0 +1,49 @@
+
+📘 HVCN Style Fusion Prompt – 5 Trường Phái MidJourney
+───────────────────────────────────────────────
+🎯 Checkpoint khuyên dùng: HVCN_supercombo_v3.safetensors
+🎯 LoRA gương mặt: <lora:sufuhvcn_face_v1:0.7>
+🎯 LoRA vóc dáng: <lora:sufuhvcn_body_v1:0.7>
+🎯 Các style LoRA: lofi / fantasy / ghost_in_the_shell
+
+───────────────────────────────────────────────
+1️⃣ PHONG CÁCH: 🎨 Thời trang hiện đại
+🔹 Style LoRA: <lora:mjstyle_lofi:0.6>
+🔹 Prompt:
+portrait of <sufuhvcn>, fashion editorial, stylish clothing, studio lighting, best quality,
+<lora:sufuhvcn_face_v1:0.7>, <lora:sufuhvcn_body_v1:0.7>, <lora:mjstyle_lofi:0.6>
+
+───────────────────────────────────────────────
+2️⃣ PHONG CÁCH: 👘 Cổ trang
+🔹 Style LoRA: <lora:mjstyle_fantasy:0.6>
+🔹 Prompt:
+portrait of <sufuhvcn>, ancient asian prince, wearing hanfu robe, detailed embroidery, elegant pose,
+<lora:sufuhvcn_face_v1:0.7>, <lora:sufuhvcn_body_v1:0.7>, <lora:mjstyle_fantasy:0.6>
+
+───────────────────────────────────────────────
+3️⃣ PHONG CÁCH: 🤖 Khoa học viễn tưởng
+🔹 Style LoRA: <lora:mjstyle_ghost_in_the_shell:0.65>
+🔹 Prompt:
+portrait of <sufuhvcn>, cybernetic enhancements, sci-fi soldier, wet reflections, digital rain,
+<lora:sufuhvcn_face_v1:0.7>, <lora:sufuhvcn_body_v1:0.7>, <lora:mjstyle_ghost_in_the_shell:0.65>
+
+───────────────────────────────────────────────
+4️⃣ PHONG CÁCH: ✨ Fantasy nghệ thuật
+🔹 Style LoRA: <lora:mjstyle_fantasy:0.6>
+🔹 Prompt:
+portrait of <sufuhvcn>, 1980s anime style, fantasy armor, glowing background, silver hair,
+<lora:sufuhvcn_face_v1:0.7>, <lora:sufuhvcn_body_v1:0.7>, <lora:mjstyle_fantasy:0.6>
+
+───────────────────────────────────────────────
+5️⃣ PHONG CÁCH: 🎥 Ảnh phim điện ảnh
+🔹 Style LoRA: <lora:mjstyle_ghost_in_the_shell:0.65>
+🔹 Prompt:
+cinematic portrait of <sufuhvcn>, moody lighting, rain-drenched city, bokeh background,
+<lora:sufuhvcn_face_v1:0.7>, <lora:sufuhvcn_body_v1:0.7>, <lora:mjstyle_ghost_in_the_shell:0.65>
+
+───────────────────────────────────────────────
+📌 Notes:
+- Sampler: DPM++ 2M Karras
+- CFG: 7.0 – 8.0
+- Steps: 24 – 32
+- Aspect: 512x768 hoặc 640x960 (full body)

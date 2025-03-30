@@ -1,0 +1,6 @@
+{
+    "name": "HVCN - Fantasy",
+    "description": "Presets dành riêng cho phong cách fantasy nghệ thuật, tích hợp với LoRA của HVCN",
+    "prompt": "Fantasy art, magical, dreamy atmosphere, intricate, vibrant colors, cinematic lighting",
+    "negative_prompt": "blurry, low-quality, poorly drawn, watermark"
+}

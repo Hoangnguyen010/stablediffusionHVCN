@@ -1,0 +1,1 @@
+Monochrome ASCII art made of text and symbols depicts a young smoking tattooed nun. --ar 3:4 --style raw --sref 1948 --profile 3e17jcq --sw 10

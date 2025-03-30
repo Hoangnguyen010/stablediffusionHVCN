@@ -1,0 +1,40 @@
+
+🧠 PROMPT GỢI Ý THEO CHECKPOINT HVCN (CHI TIẾT)
+─────────────────────────────────────────────
+
+📍1. dreamshaper_8.safetensors
+→ Style ảnh mơ mộng, mềm mại, fantasy
+✅ Prompt:
+masterpiece, best quality, 85mm, soft lighting, dreamy background, close-up, colorful
+
+📍2. realisticVisionV20_v20.safetensors
+→ Chân dung chân thật, da người tự nhiên
+✅ Prompt:
+portrait of a man, natural light, high detail, ultra sharp, clean skin
+
+📍3. realisticVisionV60B1_v51HyperVAE
+→ Chất HDR, mạnh về độ chi tiết, ánh sáng studio
+✅ Prompt:
+studio lighting, HDR style, ultra realistic, clear eyes, cinematic photo
+
+📍4. secuanceDreamDeliberate_v12sMain
+→ Merge cân bằng, dễ phối LoRA
+✅ Prompt:
+editorial photography, professional look, medium contrast, smooth style
+
+📍5. v1-5-pruned-emaonly
+→ Model base chuẩn SD1.5
+✅ Prompt:
+1girl or 1man, looking at viewer, sharp lines, clean background
+
+📍6. 🏆 HVCN_supercombo_v3.safetensors
+→ Merge tổng lực của sư phụ – dùng để phối LoRA mặt + style
+✅ Prompt:
+portrait of <sufuhvcn>, cinematic rim light, ultra detailed face, fashion editorial style, <lora:mjstyle_lofi:0.65>
+
+─────────────────────────────────────────────
+📌 Mẹo:
+- Sử dụng CFG: 6.5 – 8.0
+- Steps: 20 – 30
+- Sampler gợi ý: DPM++ 2M Karras hoặc DPM++ SDE
+- Aspect ratio gợi ý: 512x768 cho chân dung / 768x512 cho body

@@ -1,0 +1,35 @@
+
+🧠 Prompt Gợi Ý – Theo Từng Model HVCN
+───────────────────────────────────────
+
+📍 dreamshaper_8.safetensors
+prompt:
+masterpiece, best quality, cinematic light, ultra sharp, dreamy tone, 85mm
+
+📍 realisticVisionV20_v20.safetensors
+prompt:
+portrait of a man, natural light, high resolution, ultra realistic skin tone
+
+📍 realisticVisionV60B1_v51HyperVAE.safetensors
+prompt:
+photo-realistic, HDR light, crisp face detail, editorial tone
+
+📍 deliberate
+prompt:
+balanced tones, medium contrast, good composition, LoRA friendly
+
+📍 v1-5-pruned-emaonly
+prompt:
+stable diffusion base image, neutral lighting, best face, test LoRA
+
+🏆 HVCN_supercombo_v3.safetensors
+prompt:
+portrait of <sufuhvcn>, cinematic key light, ultra detailed skin, dramatic angle,
+editorial magazine cover, masterpiece, <lora:sufuhvcn_face_v1:0.7>, <lora:mjstyle_lofi:0.6>
+
+───────────────────────────────────────
+📌 Notes:
+– CFG Scale: 6.5–8.5
+– Sampler: DPM++ 2M Karras or DPM++ SDE
+– Steps: 24–32
+– Aspect ratio: 512x768 (portrait) / 768x512 (landscape)

@@ -1,0 +1,23 @@
+
+📘 HVCN LoRA GUIDE – SỬ DỤNG LORA CÁ NHÂN VỚI CHECKPOINT MỚI
+─────────────────────────────────────────────
+
+✅ Cách gọi LoRA cá nhân sau khi đã train:
+<lora:sufuhvcn_face_v1:0.7>
+
+✅ Cách phối cùng style LoRA (MidJourney hoặc custom):
+<lora:sufuhvcn_face_v1:0.7>, <lora:mjstyle_lofi:0.6>
+
+✅ Prompt mẫu:
+portrait of <sufuhvcn>, cinematic photo, masterpiece, fashion editorial, soft light, ultra detail, <lora:mjstyle_lofi:0.6>
+
+✅ Gợi ý model dùng:
+✔ HVCN_supercombo_v3.safetensors
+✔ DreamShaper v8 (phối ảnh thời trang hoặc fantasy)
+✔ Deliberate (LoRA chuyên dụng)
+
+─────────────────────────────────────────────
+📦 Tất cả file nên đặt vào thư mục:
+D:\stable-diffusion-HVCN\models\Stable-diffusion\
+
+👑 Đây là hướng dẫn dành riêng cho sư phụ – đệ tử AI trung thành phục vụ đến cùng!

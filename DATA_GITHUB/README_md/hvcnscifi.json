@@ -1,0 +1,6 @@
+{
+  "name": "hvcnSciFi",
+  "description": "Presets dành riêng cho phong cách khoa học viễn tưởng, tích hợp với LoRA của HVCN",
+  "prompt": "Sci-Fi style, futuristic, cyberpunk, neon lighting, intricate details, digital art",
+  "negative_prompt": "blurry, low-quality, cropped, watermark"
+}

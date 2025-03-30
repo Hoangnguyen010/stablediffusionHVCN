@@ -1,0 +1,6 @@
+{
+    "name": "HVCN - Lofi Modern",
+    "description": "Presets dành riêng cho phong cách Lofi hiện đại, tích hợp với LoRA của HVCN",
+    "prompt": "Lofi aesthetic, relaxing mood, muted colors, cozy, minimalist illustration, soft shading",
+    "negative_prompt": "harsh lighting, oversaturated, watermark, low-quality"
+}
