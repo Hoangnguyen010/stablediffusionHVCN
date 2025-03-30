@@ -16,7 +16,7 @@ def git(*args):
 # Copy từ Drive sang local
 def sync_from_drive():
     for folder in DRIVE_FOLDERS:
-        src_path = os.path.join('D:\\GoogleDrive', folder)
+        src_path = os.path.join('D:\\GoogleDrive\\stablediffusionHVCN', folder)
         dest_path = os.path.join(LOCAL_REPO_PATH, folder)
         subprocess.call(['robocopy', src_path, dest_path, '/E', '/MIR'])
 
